@@ -1,0 +1,199 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hai","Hi","Halo","Apa Kabar","Selamat Pagi","Selamat Siang","Selamat Malam","Salam","Ping","P"],
+   "responses": ["Halo, ada yang bisa kami bantu?", ],
+   "context": [""]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Terimakasih","Dadah","Selamat Tinggal","Dah","Daah","Semoga harimu menyenangkan","Ok makasih","Sampai Jumpa Lagi","Ok bye"],
+   "responses": [ "Sama-sama", "Sampai jumpa lagi yaa", "Kalau ada pertanyaan lagi, hubungi kami ya", "Semoga harimu menyenangkan!"],
+   "context": [""]
+  },
+  {"tag": "tidak_ada_jawaban",
+   "patterns": [""],
+   "responses": ["Maaf kami hanya membahas seputar balita mengenai pendidikan, pola asuh, gizi, usia dan juga perkembangan balita. 
+   Mohon maaf kami belum bisa kasih jawaban terbaik, tapi bantu kami memberikan masukan pada halaman saran."],
+   "context": [""]
+  },
+  {"tag": "parenting",
+   "patterns": ["Apa itu parenting?","Maksud dari parenting?","Parenting adalah?"],
+   "responses": ["Parenting merupakan ilmu yang mempelajari tentang pengasuhan anak atau pola asuh orang tua terhadap anak. Parenting termasuk memahami berbagai pendekatan yang tepat untuk memahami kebutuhan fisik dan biologis dan sosio emosional dan kognitif anak ketika mereka sedang berkembang"],
+   "context": ["https://www.stella-maris.sch.id/blog/parenting-adalah/"]
+  },  
+  {"tag": "Jenis pola asuh",
+   "patterns": ["Apa saja pola asuh yang dapat di terapkan kepada anak?","Jenis-jenis pola asus","Jenis-jenis pola asuh?"],
+   "responses": ["Terdapat 3 jenis pola asuh yaitu pola asuh permisif, otoriter dan autoritatif"],
+   "context": [""]
+  },
+  {"tag": "Pola asuh permisif",
+   "patterns": ["Apakah pola asuh permisif itu?","Apa yang dimaksud dengan pola asuh permisif?","Pola asuh permisif adalah?"],
+   "responses": ["Pola asuh permisif Pola asuh yang memberikan kebebasan terhadap anak dalam menyampaikan keinginannya"],
+   "context": [""]
+  },
+  {"tag": "Pola asuh otoriter",
+   "patterns": ["Apakah pola asuh otoriter itu?","Apa yang dimaksud dengan pola asuh otoriter?"],
+   "responses": ["Pola asuh otoriter yaitu Pola asuh yang menekankan atau menutup ruang diskusi anak"],
+   "context": [""]
+  },
+  {"tag": "Pola asuh autoritatif",
+   "patterns": ["Apakah pola asuh autoritatif itu?","Apa yang dimaksud dengan pola asuh autoritatif"],
+   "responses": ["Pola asuh autoritatif yaitu Pola asuh yang memberikan batasan yang tepat kepada anak"],
+   "context": [""]
+  },
+  {"tag": "Kejujuran",
+   "patterns": ["Bagaimana mengajarkan anak kejujuran?","Cara mendidik dan membiasakan anak jujur?","Cara mengajarkan kejujuran pada anak?"],
+   "responses": ["Membangun kejujuran anak dapat dilakukan dengan berbagai cara,antara lain dengan mempraktikan perilaku jujur di depan anak, menjelaskan bedanya kejujuran dan kebohongan,menerapkan konsekuensi pada anak,menegur dengan bahasa yang halus saat ia terlihat berbohong"],
+   "context": [""]
+  },
+  {"tag": "Mandiri",
+   "patterns": ["Bagaimana mengajarkan anak mandiri?","Cara mengajarkan anak mandiri?"],
+   "responses": ["Dengan memberikan anak tanggung jawab yang dapat ditangani, membiarkan anak membuat keputusan sendiri, dan mengajarkan anak untuk menyelesaikan masalah sendiri serta terus memberikan dorongan"],
+   "context": [""]
+  },
+  {"tag": "Hukuman",
+   "patterns": ["Bagaimana cara menghukum anak yang baik?","Cara menghukum anak yang baik?","Bagaimana tips menghukum anak dengan baik?","Bagaimana tips memberikan hukuman jera pada anak?"],
+   "responses": [ "Menghukum anak yang baik yaitu dengan cara menghindari hal semacam mengancam anak atau melakukan tindakan fisik kepada anak", "Memberikan pengertian yang baik kepada anak atas apa yang telah terjadi,Mengabaikan anak jika ia ingin sesuatu dengan cara yang kasar,memberikan hak istimewa (kesukaan) anak ketika ia melakukan kesalahan,Memberikan konsekuensi yang logis kepada anak ketika ia berbuat salah,Ajak anak berbicara kemudian berkreasilah dengan mereka dan anak secara perlahan bagaimana cara mengatasi masalah"],
+   "context": [""]
+  },
+  {"tag": "Reward",
+   "patterns": ["Bagaimana kita memberikan reward yang baik untuk anak?","Bagaimana memberikan reward agar anak tidak terlena?","Sejauh mana orangtua boleh memberi reward pada anak agar tidak jadi kebiasaan anak melakukan sesuatu karena reward tersebut?"],
+   "responses": ["Berikan pujian sebaik mungkin,Kenali apa yang disukai oleh si kecil,Ucapkan terima kasih agar ia juga terbiasa dengan hal itu", "Kita harus sering memberikan reward beserta pujian pada setiap anak yang telah berusaha atau telah melakukan sesuatu yang baik dan disesuaikan dengan situasi dan kondisinya misalnya (Wah anak Bunda hebat sekali sudah berusaha). Anak yang dibesarkan dengan pujian dan kata-kata yang positif, akan tumbuh menjadi anak yang penuh cinta, penghargaan pula pada orang lain, menghargai proses dan memiliki konsep diri yang positif pada dirinya sendiri"],
+   "context": [""]
+  },
+  {"tag": "Nasihat",
+   "patterns": ["Bagaimana memberikan nasihat kepada anak?","Nasihat yang baik pada anak?"],
+   "responses": ["Cara memberikan nasihat yang kepada anak yaitu dengan cara yang mendidik,berbicara yang halus kepada anak tanpa membentak atau marah-marah", "Mengajak anak berdiskusi kalau dirinya telah melakukan kesalahan,berusaha mengingatkan, tanpa harus memaksa atau memarahi,berusaha untuk selalu memberikan contoh yang baik,mengajarkan anak untuk belajar berempati"],
+   "context": [""]
+  },
+  {"tag": "Menghargai",
+   "patterns": ["Bagaimana cara mengajarkan anak supaya tidak berkelahi?","Cara mengajarkan anak untuk saling menghargai?"],
+   "responses": ["Dengan meningkatkan rasa empati pada anak, Beri kesempatan anak untuk belajar berbicara satu sama lain dan menyelesaikan masalah,ajarkan keterampilan bersosialisasi pada anak dengan cara berbicara sopan pada teman-temannya,membaca buku bersama dengan anak tentang persahabatan,ajak anak untuk menangani konflik sebelum timbul dengan menjelaskan bagaimana mereka menangani konflik. Para orang tua juga harus memuji anak-anak ketika mereka berhasil bekerja sama dengan lainnya, dan  Selalu menjadi teladan bagi anak agar ia juga menjadi teladan bagi teman-temannya"],
+   "context": [""]
+  },
+  {"tag": "Terimakasih",
+  "patterns": ["Bagaimana mengajarkan anak berterimakasih?","Cara mengajarkan anak berterimakasih?"],
+  "responses": ["Dengan membiasakan anak untuk bilang terimakasih saat menerima sesuatu", "Memberikan contoh kepada anak kemudian melatih anak mengucapkan terima kasih jika menerima sesuatu dari orang lain"],
+  "context": [""]
+  },
+  {"tag": "Maaf",
+  "patterns": ["Bagaimana mengajarkan anak meminta maaf?","Cara mengajarkan anak minta maaf?"],
+  "responses": ["Memberikan contoh kepada anak kemudian melatih anak mengucapkan terima kasih jika menerima sesuatu dari orang lain", "Dengan mengajarkan anak jika melakukan kesalahan maka diharuskan meminta maaf"],
+  "context": [""]
+  },
+  {"tag": "Tolong",
+  "patterns": ["Bagaimana cara agar anak meminta tolong dengan baik?"],
+  "responses": ["Berikan contoh yang nyata dan memberikan edukasi mengenai tata krama apabila membutuhkan bantuan orang lain ,Untuk membiasakan meminta tolong ketika berada dalam kesulitan, orangtua harus mengajarkan anak untuk mengucapkan tolong saat meminta bantuan. Hal ini akan memantapkan pemahamannya, mengenai peningkatan pentingnya mengucapkan tolong"],
+  "context": [""]
+  },
+  {"tag": "Percaya diri",
+  "patterns": ["Cara membuat anak percaya diri","Bagaimana cara membangun kepercayaan diri pada anak?"],
+  "responses": ["Menghargai setiap usaha yang telah dilakukan anak baik kecil maupun besar,memberikan dukungan moral dan semangat pada anak,mendorong anak untuk mampu menyelesaikan masalah dengan usaha sendiri,selalu memberikan tantangan baru demi melatih kepercayaan diri,menghindari perlakuan istimewa pada anak"],
+  "context": [""]
+  },
+  {"tag": "Bakat dan kreatifitas",
+  "patterns": ["Bagaimana cara mengetahui minat dan bakat?","bagaimana cara melatih bakat dan kreatifitas?"],
+  "responses": ["Memperkenalkan berbagai bidang dan amati kebiasaan anak,Memperhatikan anak dengan seksama, Cara mengetahui bakat anak sejak balita yang paling dasar adalah memperhatikannya dengan seksama karena mereka sendiri pun tidak dapat memahami sebenarnya apa bakat mereka,Memberikan kesempatan Cara mengetahui bakat anak sejak dini berikutnya adalah aktif memberikan kesempatan kepada anak karena pada dasarnya bakat perlu kesempatan untuk bisa berkembang,Bangun komunikasi dengan anak dan membantu anak untuk mengeksplore kemampuannya, Memupuk bakat yang sudh terlihat. Orang tua dapat memupuk bakat anak kecil dengan mendorong, pujian, dan semangat agar ia terus mengembangkan bakatnya. Sang anak perlu tahu bangga orangtuanya terhadap kemampuannya. tunjukkan minat pada subjek yang menjadi kesukaan sang anak. Orang tua juga bisa mencari kesempatan dan peluang agar anak dapat berprestasi kepada teman dan saudara"],
+  "context": [""]
+  },
+  {"tag": "Motivasi",
+  "patterns": ["Bagaimana memberi motivasi belajar ?"],
+  "responses": ["Cara memberikan motivasi belajar kepada anak dengan memberi dukungan atau semangat kepada anak saat belajar"],
+  "context": [""]
+  },
+  {"tag": "Berbicara",
+  "patterns": ["Bagaimana cara melatih balita untuk berbicara dengan baik?","cara melatih anak untuk berbicara dengan baik?"],
+  "responses": ["Sering-seringlah mengajak balita berbicara dengan bahasa pada umumnya yakni dengan sering mengajaknya berkomunikasi sejak dini. Tak perlu menunggu hingga usia 4 bulan. Sejak balita, orangtua harus aktif mengajaknya berbicara. Misalkan saja dengan mengatakan ini mama, Ini Papa, Adek sayang, Mau susu? Atau bisa juga mengenalkan nama-nama benda di sekitarnya."],
+  "context": [""]
+  },
+  {"tag": "Disiplin",
+  "patterns": ["Bagaimana menerapkan sifat disiplin anak?","cara menerapkan sifat disiplin anak"],
+  "responses": ["Menerapkan sifat disiplin anak bisa melalui orang tua di rumah dengan cara memberikan jadwal kegiatan pada anak"],
+  "context": [""]
+  },
+  {"tag": "Terbuka",
+  "patterns": ["Bagaimana agar anak terbuka terhadap orang tua?"],
+  "responses": ["Cara membuat anak dapat terbuka kepada orang tua dengan cara memberikan ruang kepada anak untuk bercerita"],
+  "context": [""]
+  },
+  {"tag": "Waktu tidur",
+  "patterns": ["Kapan waktu tidur yang baik bagi anak?","waktu tidur yang baik untuk anak adalah"],
+  "responses": ["Setiap anak memerlukan waktu istirahat yang berbeda setiap hari tergantung dari usianya. Seiring bertambahnya usia, waktu tidur semakin berkurang. Rekomendasi waktu tidur untuk anak adalah sebagai berikut: Bayi < 1 tahun: 12-16 jam, Anak usia 1-2 tahun: 11-14 jam, Anak usia 3-5 tahun: 10-13 jam, Waktu tidur siang ideal yaitu sekitar 2-3 jam yang disesuaikan dengan jam tidur di malam hari agar pola tidurnya tidak terganggu"],
+  "context": [""]
+  },
+  {"tag": "Pemahaman",
+  "patterns": ["Bagaimana memberikan pemahaman kepada anak?"],
+  "responses": ["Memberikan pemahaman terhadap anak dapat dilakukan orangtua dengan pendekatan yang baik tanpa harus marah-marah atau membentak"],
+  "context": [""]
+  },
+  {"tag": "Pengertian",
+  "patterns": ["Bagaimana mengajarkan anak pengertian?"],
+  "responses": ["Memberikan pengertian kepada anak harus dengan pendekatan yang baik,agar anak dapat memahaminya dengan benar tanpa harus membentak"],
+  "context": [""]
+  },
+  {"tag": "Introspeksi",
+  "patterns": ["Bagaimana cara mengajarkan anak introspeksi?"],
+  "responses": ["Berikan nasehat yang membangun dengan menggunakan kata-kata yang lemah lembut dan tidak menyudutkan anak,dengan begitu anak akan dapat lebih mudah menyerap kata-kata nasehat yang diberikan"],
+  "context": [""]
+  },
+  {"tag": "Patuh",
+  "patterns": ["Bagaimana cara mendidik anak agar patuh?"],
+  "responses": ["Dengarkan keluhan anak dengan sepenuh hati, atau peka terhadap keadaan dan kondisi hati mereka. Berikanlah tatapan mata yang hangat, teduh, dan tulus dari hati untuk menunjukkan perasaan karena tatapan mata memiliki kekuatan untuk menunjukkan perasaan."],
+  "context": [""]
+  },
+  {"tag": "ASI",
+  "patterns": ["Bagaimana cara anak agar lepas ASI?"],
+  "responses": ["Proses yang dilakukan secara bertahap sampai anak berhenti menyusu ASI disebut juga menyapih. Cara menyapih anak bisa dimulai saat anak sudah dapat mencoba makanan padat sebagai pendamping ASI. Cara yang bisa Anda lakukan berupa mempersingkat durasi hingga memberikan pengalih."],
+  "context": [""]
+  },
+  {"tag": "Hiperaktif",
+  "patterns": ["Bagaimana cara mengatasi balita yang hiperaktif?"],
+  "responses": ["1. Mengajak balita untuk olahraga bersama, dengan mengajak anak berolahraga dapat mengalihkan energi yang dimiliki balita ke hal yang positif. Olahraga tersebut dapat berupa, jalan santai bersama di pagi hari, bermain bola dan olahraga ringan lainnya yang dapat dilakukan orangtua bersama anak. 2. Memberikan pujian ketika balita berhasil menyelesaikan tugas, dalam mengatasi sifat hiperaktif anak memberikan pujian atau pengertian saat mereka bisa menyelesaikan tugas merupakan salah satu cara yang tepat untuk mengurangi sifat hiperaktif tersebut. Namun orangtua harus memberikan pujian atau pengertian dengan cara yang baik dan juga benar."],
+  "context": [""]
+  },
+  {"tag": "Tidur",
+  "patterns": ["Kenapa balita pada malam hari terkadang sulit tidur?"],
+  "responses": ["Karena ada beberapa faktor yang mempengaruhi balita, yaitu; 1. Tidur siang terlalu panjang, 2. Anak sedang cemas dan stress. Dengan mengetahui penyebabnya maka orangtua bisa mengatur pola tidur anak kembali."],
+  "context": [""]
+  },
+  {"tag": "Mengemut",
+  "patterns": ["Cara menghilangkan kebiasaan balita mengemut jari?"],
+  "responses": ["Kebiasaan mengisap jempol atau jari-jari dapat dikarenakan balita ada dalam kondisi kecemasan, kelaparan, bosan, ketegangan, ketakutan, stress dan adanya keinginan yang tidak terpenuhi. Perlu diketahui bahwasannya balita menghisap jari hanya sampai pada umur 3-6,5 tahun namun jika terus berkelanjutan orangtua dapat menghentikan tindakan anak tersebut dengan memberikan pengertian secara halus, bijak dan dapat diterima dengan baik oleh anak mengenai dampak buruk dari mengisap jari."],
+  "context": [""]
+  },
+  {"tag": "Berbicara",
+  "patterns": ["Usia berapa anak lancar berbicara?"],
+  "responses": ["Untuk pertumbuhan dan perkembangan setiap anak pada umumnya berbeda-beda. Namun pada usia 12 bulan anak seharusnya  sudah dapat mengucapkan 1 kata yang memiliki arti dan di usia 2 tahun anak sudah dapat mengucapkan 1 kalimat yang terdiri dari 2 suku kata."],
+  "context": [""]
+  },
+  {"tag": "Penyebab",
+  "patterns": ["Penyebab anak terlambat dalam berbicara"],
+  "responses": ["Keterlambatan anak dalam berbicara (speech delay)  bisa disebabkan karena adanya  gangguan pendengaran atau gangguan pada organ mulut yang menyebabkan anak sulit untuk berbicara."],
+  "context": [""]
+  },
+  {"tag": "Mengatasi",
+  "patterns": ["Cara mengatasi anak yang terlambat berbicara?"],
+  "responses": ["Cara mengatasi anak yang terlambat berbicara jika masih dalam gejala yang ringan orangtua dapat menstimulasi si kecil terus menerus dengan rajin mengajaknya berbicara sejak dini, walaupun belum dapat berbicara dengan baik setidaknya beberapa kosakata yang diucapkan sudah jelas dan orangtua dapat mengerti makna dari kata tersebut. Namun jika sudah sampai gejala yang berat, maka orangtua harus membawa anak kedokter spesialis anak atau psikolog anak."],
+  "context": [""]
+  },
+  {"tag": "Berat badan",
+  "patterns": ["Berapa berat badan ideal anak umur 1 tahun?"],
+  "responses": ["Berdasarkan kurva tumbuh kembang yang dikemukakan oleh WHO berat badan usia 1 tahun yaitu, 8-12kg."],
+  "context": [""]
+  },
+  {"tag": "Seks",
+  "patterns": ["Kapan anak saya boleh belajar seks?"],
+  "responses": ["Umumnya anak anak dikenalkan dengan seks pada saat usia 4-5 tahun, dimana mereka sudah mulai mengerti setiap fungsi dari organ tubuh manusia. Namun Frued(salah satu tokoh psikologi kepribadian) mengemukakan anak-anak dikenalkan dengan dunia seks sejak mereka berada pada fase oral dimana bayi mendapatkan nutrisi untuk mempertahankan hidup melalui aktivitas oral (menyusui)."],
+  "context": [""]
+  },  
+  {"tag": "Balita",
+  "patterns": ["Apa itu balita?"],
+  "responses": ["Balita merupakan anak-anak yang berusia 2-5 tahun"],
+  "context": [""]
+  },  
+  {"tag": "Usia",
+  "patterns": ["Usia balita?"],
+  "responses": ["Usia balita dimulai dari 2-5 tahun"],
+  "context": [""]
+  }                  
+]
+}
