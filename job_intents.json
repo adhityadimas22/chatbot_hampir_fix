@@ -1,7 +1,7 @@
 {"intents": [
   {"tag": "greeting",
    "patterns": ["Hai","Hi","Halo","Apa Kabar","Selamat Pagi","Selamat Siang","Selamat Malam","Salam","Ping","P"],
-   "responses": ["Halo, ada yang bisa kami bantu?", ],
+   "responses": ["Halo, ada yang bisa kami bantu?"],
    "context": [""]
   },
   {"tag": "goodbye",
@@ -11,8 +11,7 @@
   },
   {"tag": "tidak_ada_jawaban",
    "patterns": [""],
-   "responses": ["Maaf kami hanya membahas seputar balita mengenai pendidikan, pola asuh, gizi, usia dan juga perkembangan balita. 
-   Mohon maaf kami belum bisa kasih jawaban terbaik, tapi bantu kami memberikan masukan pada halaman saran."],
+   "responses": ["Maaf kami hanya membahas seputar balita mengenai pendidikan, pola asuh, gizi, usia dan juga perkembangan balita. Mohon maaf kami belum bisa kasih jawaban terbaik, tapi bantu kami memberikan masukan pada halaman saran."],
    "context": [""]
   },
   {"tag": "parenting",
